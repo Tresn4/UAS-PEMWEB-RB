@@ -1,0 +1,73 @@
+# Python backend
+*.egg
+*.egg-info
+*.pyc
+__pycache__
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.python-version
+
+# Database
+*.sqlite3
+*.db
+
+# React frontend
+node_modules/
+/timekeeper_frontend/build
+/timekeeper_frontend/.env
+/timekeeper_frontend/.env.local
+/timekeeper_frontend/.env.development.local
+/timekeeper_frontend/.env.test.local
+/timekeeper_frontend/.env.production.local
+/timekeeper_frontend/npm-debug.log*
+/timekeeper_frontend/yarn-debug.log*
+/timekeeper_frontend/yarn-error.log*
+/timekeeper_frontend/.pnp
+/timekeeper_frontend/.pnp.js
+/timekeeper_frontend/coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Pyramid specific
+*.ini
+!development.ini
+!production.ini
+data/
+
+# Alembic
+/timekeeper_backend/alembic/versions/*.py
+!timekeeper_backend/alembic/versions/__init__.py
+
+# Distribution/packaging
+dist/
+build/
+downloads/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+lib/
+lib64/

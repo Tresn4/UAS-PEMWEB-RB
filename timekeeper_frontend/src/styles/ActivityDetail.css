@@ -1,0 +1,74 @@
+.activity-detail {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .activity-detail-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .activity-detail-header h2 {
+    margin: 0;
+  }
+  
+  .close-button {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .activity-detail-content {
+    padding: 20px;
+  }
+  
+  .detail-item {
+    margin-bottom: 15px;
+  }
+  
+  .detail-item .label {
+    font-weight: 600;
+    color: #7f8c8d;
+    margin-right: 10px;
+  }
+  
+  .detail-item .value {
+    color: #2c3e50;
+  }
+  
+  .detail-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn-edit {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .btn-edit:hover {
+    background-color: #d35400;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c0392b;
+  }

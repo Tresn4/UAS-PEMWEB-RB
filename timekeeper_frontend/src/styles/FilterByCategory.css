@@ -1,0 +1,17 @@
+.filter-by-category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-by-category label {
+    font-weight: 500;
+  }
+  
+  .filter-by-category select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 200px;
+  }

@@ -1,0 +1,13 @@
+.category-page {
+    width: 100%;
+  }
+  
+  .category-page h1 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .page-description {
+    margin-bottom: 20px;
+    color: #7f8c8d;
+  }

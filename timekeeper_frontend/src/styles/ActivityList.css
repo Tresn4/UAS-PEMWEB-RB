@@ -1,0 +1,121 @@
+.activity-list-container {
+    width: 100%;
+  }
+  
+  .activity-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .activity-list-header h2 {
+    color: #2c3e50;
+  }
+  
+  .activity-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  .btn-add {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn-add:hover {
+    background-color: #27ae60;
+  }
+  
+  .activity-table-container {
+    overflow-x: auto;
+  }
+  
+  .activity-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .activity-table th,
+  .activity-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .activity-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  .activity-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-edit {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .btn-edit:hover {
+    background-color: #d35400;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c0392b;
+  }
+  
+  .no-activities {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+  }
+  
+  @media (max-width: 768px) {
+    .activity-list-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    
+    .activity-controls {
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .search-box input {
+      width: 100%;
+    }
+  }
